@@ -1,3 +1,6 @@
+> __FORK:__ includes support fix for older JavaScript Core versions (eg. as seen in El Capitan)  
+> __USAGE:__ `npm i @leonardpauli/cocoascript-class@0.1.2-support-older-jsc`
+
 # cocoascript-class
 Lets you create real ObjC classes in cocoascript so you can implement delegates, subclass builtin types, etc
 

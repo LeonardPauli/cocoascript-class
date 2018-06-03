@@ -1,5 +1,8 @@
 > __FORK:__ includes support fix for older JavaScript Core versions (eg. as seen in El Capitan)  
-> __USAGE:__ `npm i @leonardpauli/cocoascript-class@0.1.2-support-older-jsc`
+> __USAGE:__ `npm i @leonardpauli/cocoascript-class@0.1.2-support-older-jsc`  
+  
+> __ALT *(local only fix)*:__ `git clone <this repo> cocoascript-class && cd $_ && npm i && npm link`  
+>   then: `cd my-repo-with-subdependency-on-cocoascript-class && npm link cocoascript-class && npm run ...`
 
 # cocoascript-class
 Lets you create real ObjC classes in cocoascript so you can implement delegates, subclass builtin types, etc
